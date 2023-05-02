@@ -90,9 +90,17 @@ const inventory = [
 // Now you try it!
 
 // Scoping
+const myName ("steven")
 // Global Scope
+function combineLast (Lastname){
+    console.log (combineLast+myName)
+}
 // Function Scope
 // Block Scope (If, else, for, while)
 
 // Callback Functions, calling a function in a function
+function callBook(book,newFunction){
+    newFunction()
+}
 
+const map = inventory.map((book)=> console.log(book.title
